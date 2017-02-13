@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cloudkey.github.io/"/>
-  <updated>2017-02-13T08:38:06.000Z</updated>
+  <updated>2017-02-13T09:41:45.000Z</updated>
   <id>http://cloudkey.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://cloudkey.github.io/2017/01/28/S2016E02/"/>
     <id>http://cloudkey.github.io/2017/01/28/S2016E02/</id>
     <published>2017-01-28T05:08:05.000Z</published>
-    <updated>2017-02-13T08:38:06.000Z</updated>
+    <updated>2017-02-13T09:41:45.000Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p>
 <p>坐在家里的书桌前，晒着新年的第一缕阳光，闻着老妈拿手菜的香味，开始了《我的2016》系列的第二篇 – 工作上让我引以自豪的两个项目。</p>
@@ -71,7 +71,34 @@
 <blockquote>
 <p>我又不自觉的想感谢一些同学了，哈哈哈～！<br>Horus之父的彬彬同学，是你让Horus“输出能力，不输出人力”，为我们打造了一款即使是Spark小白也能够轻而易举得使用其强大的计算和统计技能。<br>Sinan的梦想家，熙熙和娅静同学，为我们庞大的数据系统团队，带来了一盏指明方向的灯塔，照亮航行的路线。<br>当然还有我们可爱的POMS兄弟们，为你们点赞！没有你们，就不可能有Flow。</p>
 </blockquote>
-<h2 id="资源管理-–-Capricus"><a href="#资源管理-–-Capricus" class="headerlink" title="资源管理 – Capricus"></a>资源管理 – Capricus</h2>]]></content>
+<h2 id="资源管理-–-Capricus"><a href="#资源管理-–-Capricus" class="headerlink" title="资源管理 – Capricus"></a>资源管理 – Capricus</h2><p>其实做云方面的开发很有意思，就是它的数据量会很大并且在不断增长，我们都知道量变会引起质变，所以我们的系统需要不断应对庞大数据量带来的各种挑战！</p>
+<p>当我们的POMS能够独当一面的时候，其实还是面对一些Challenge：</p>
+<blockquote>
+<ol>
+<li>资源需求差异化大：在线／离线／单次／批量；</li>
+<li>资源多样化：底层文件存储资源／DB资源／计算资源／网络资源／Cache资源；</li>
+<li>资源审计难：对资源的使用情况缺失审计环节；</li>
+<li>资源分配合理性差：业务无优先级概念，当资源不足时，无法保证高优先级业务的资源需求；未区分低峰高峰时段，低峰时段资源利用率低；</li>
+<li>系统稳定性风险高：各业务各自为战，不顾及大局，单业务耗光某个底层资源时，拖垮整个系统。</li>
+</ol>
+</blockquote>
+<p>还有一种说法，做云系统 “运维”是关键，当然这里的运维不是单纯的机器运维，还包括资源的整体调度和协调，各方各面都要相互配合，在一个大池子下完成更多事情。</p>
+<h3 id="我们的愿景"><a href="#我们的愿景" class="headerlink" title="我们的愿景"></a>我们的愿景</h3><ul>
+<li>各层次资源全局统一调度：审计、分配、使用、回收；</li>
+<li>各业务逻辑划分优先级，资源分配的时候考虑优先级因素；</li>
+<li>各层资源利用率最大化。</li>
+</ul>
+<blockquote>
+<p>POMS的未来在无限的远方，Resourcer的征途是星途大海。</p>
+</blockquote>
+<h3 id="名字的由来"><a href="#名字的由来" class="headerlink" title="名字的由来"></a>名字的由来</h3><p>做系统的同学都有一个共同的感受，就是每当遇到给新系统取名字的时候，就比较犯愁了。因为名字一方面要好记，另一方面也要跟系统的功能和定位有关，所以每每起名字都是一件技术活啊。。</p>
+<p>为了解决这一困扰了我们很久的难题，无意一次我在维基百科中看到了宇宙中关于<a href="https://zh.wikipedia.org/wiki/%E6%98%9F%E5%BA%A7#.E7.8E.B0.E4.BB.A3.E5.85.AB.E5.8D.81.E5.85.AB.E6.98.9F.E5.BA.A7" target="_blank" rel="external">星座</a>的划分，就这样我们可以根据各自系统的角色，在茫茫天际中找寻与之匹配的那一颗星座了。</p>
+<p>最终给我们的资源管理系统敲定了Caprinus，来源于Capricornus一词：</p>
+<blockquote>
+<p>Capricornus: 摩羯座亮星组成一个倒三角形结构，古人将其称为“神仙之门”，认为从地上各种名利是非解脱出来的人，其灵魂就可以通过此门登上天国。用此星座代表着二级组件通天入地的连接一级组件和POMS各个模块，守护着我们的底层各类资源。</p>
+</blockquote>
+<h3 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h3><p>目前系统还处在开发阶段，后续上线之后，再来聊一聊开发过程中遇到的那些事，尽情期待…</p>
+]]></content>
     
     <summary type="html">
     
