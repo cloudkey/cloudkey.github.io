@@ -7,13 +7,6 @@
     </url>
 
     <url>
-        <loc>http://cloudkey.github.io/categories/work/</loc>
-        <lastmod>2017-01-21T12:16:32.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://cloudkey.github.io/categories/read/</loc>
         <lastmod>2017-01-21T12:29:10.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -21,15 +14,22 @@
     </url>
 
     <url>
-        <loc>http://cloudkey.github.io/categories/life/</loc>
-        <lastmod>2017-01-28T05:10:36.000Z</lastmod>
+        <loc>http://cloudkey.github.io/categories/run/</loc>
+        <lastmod>2017-03-06T10:10:20.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://cloudkey.github.io/categories/run/</loc>
-        <lastmod>2017-03-06T10:10:20.000Z</lastmod>
+        <loc>http://cloudkey.github.io/categories/work/</loc>
+        <lastmod>2017-03-18T03:26:45.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://cloudkey.github.io/categories/life/</loc>
+        <lastmod>2017-03-23T07:44:55.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
