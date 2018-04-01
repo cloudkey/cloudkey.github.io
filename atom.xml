@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://cloudkey.github.io/"/>
-  <updated>2018-04-01T09:57:01.000Z</updated>
+  <updated>2018-04-01T09:59:19.000Z</updated>
   <id>http://cloudkey.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://cloudkey.github.io/2018/03/30/S2018E01/"/>
     <id>http://cloudkey.github.io/2018/03/30/S2018E01/</id>
     <published>2018-03-30T02:23:00.000Z</published>
-    <updated>2018-04-01T09:57:01.000Z</updated>
+    <updated>2018-04-01T09:59:19.000Z</updated>
     
     <content type="html"><![CDATA[<p>[TOC]</p>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>  阳春三月，春回大地，团队即将开启成立以来第一次全链路最深入的一个项目协作，也是我最期待的一个平台应有的能力之一，那就是全系统日志链路系统，有了它所有组件和模块的日志就可以串联起来，线上出现问题时就可追踪／可定位，极大提升解决问题的效率（时效）和降低运维的人力成本。</p>
@@ -43,8 +43,7 @@
 <p>（周三）3.28晚，梅林北京／合肥全部功能测试完成 + 通过</p>
 <p>（周四）3.29 早上处理线上kylin事故<br>下午准备线上北京／合肥环境<br>下午上线北京集群新版 kylin-distributelog，观察一下午<br>晚上合肥集群上线新版本，21:30完成全部上线／回归计算任务+查询功能，确定无问题，v20180329 done</p>
 </blockquote>
-<p>##此次全链路版本暴露的问题</p>
-<ol>
+<h2 id="此次全链路版本暴露的问题"><a href="#此次全链路版本暴露的问题" class="headerlink" title="此次全链路版本暴露的问题"></a>此次全链路版本暴露的问题</h2><ol>
 <li><p>各组件接入日志全链路从上游到下游协调配合，较混乱条理不清</p>
 </li>
 <li><p>各组件自身接入日志系统后可靠性保障不够</p>
