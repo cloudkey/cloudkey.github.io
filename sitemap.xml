@@ -1,221 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>http://cloudkey.github.io/2018/11/21/S2018E04/</loc>
-    
-    <lastmod>2018-11-21T03:35:11.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2018/11/19/S2018E03/</loc>
-    
-    <lastmod>2018-11-20T07:08:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2018/11/14/S2018E02/</loc>
-    
-    <lastmod>2018-11-15T07:57:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2018/03/30/S2018E01/</loc>
-    
-    <lastmod>2018-04-01T09:59:19.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/08/13/S2017E11/</loc>
-    
-    <lastmod>2017-08-13T10:20:50.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/05/31/S2017E10/</loc>
-    
-    <lastmod>2017-06-11T02:53:13.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/01/25/S2016E01/</loc>
-    
-    <lastmod>2017-04-27T02:39:37.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/04/20/S2017E09/</loc>
-    
-    <lastmod>2017-04-25T02:47:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/31/S2017E08/</loc>
-    
-    <lastmod>2017-03-31T04:07:39.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/28/S2017E07/</loc>
-    
-    <lastmod>2017-03-29T02:38:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/20/S2017E06/</loc>
-    
-    <lastmod>2017-03-23T07:52:34.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/01/28/S2016E02/</loc>
-    
-    <lastmod>2017-03-18T03:26:45.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/06/S2017E05/</loc>
-    
-    <lastmod>2017-03-06T10:10:20.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/05/S2017E04/</loc>
-    
-    <lastmod>2017-03-06T03:51:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/05/S2017E02/</loc>
-    
-    <lastmod>2017-03-06T03:46:54.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/05/S2017E03/</loc>
-    
-    <lastmod>2017-03-05T15:19:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/03/03/S2017E01/</loc>
-    
-    <lastmod>2017-03-05T13:12:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2017/02/16/S2016E03/</loc>
-    
-    <lastmod>2017-03-03T08:44:01.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/12/06/What%20I%20introduce%20When%20I%20introduce%20run%20Season%20One/</loc>
-    
-    <lastmod>2017-01-21T12:29:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/11/08/nine-defeated-a-win/</loc>
-    
-    <lastmod>2017-01-21T12:29:10.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/12/20/What%20I%20introduce%20When%20I%20introduce%20run%20Season%20Two/</loc>
-    
-    <lastmod>2017-01-21T12:26:14.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/11/10/saucony-feel/</loc>
-    
-    <lastmod>2017-01-21T12:24:16.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/11/08/nb-lsd/</loc>
-    
-    <lastmod>2017-01-21T12:24:05.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/11/15/lua-coding-style/</loc>
-    
-    <lastmod>2017-01-21T12:16:32.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/2015/12/01/lua-global-variable-trap/</loc>
-    
-    <lastmod>2017-01-21T12:16:27.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/search/index.html</loc>
-    
-    <lastmod>2017-01-21T08:47:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/project/index.html</loc>
-    
-    <lastmod>2017-01-21T08:47:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/about/index.html</loc>
-    
-    <lastmod>2017-01-21T08:46:43.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/link/index.html</loc>
-    
-    <lastmod>2017-01-21T08:45:35.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/tag/index.html</loc>
-    
-    <lastmod>2017-01-21T08:45:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://cloudkey.github.io/category/index.html</loc>
-    
-    <lastmod>2017-01-21T08:44:48.000Z</lastmod>
-    
-  </url>
-  
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <sitemap>
+        <loc>http://cloudkey.github.io/post-sitemap.xml</loc>
+        <lastmod>2018-11-22T03:11:27.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://cloudkey.github.io/page-sitemap.xml</loc>
+        <lastmod>2017-01-21T08:47:40.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://cloudkey.github.io/category-sitemap.xml</loc>
+        <lastmod>2017-01-21T12:29:10.000Z</lastmod>
+    </sitemap>
+
+    <sitemap>
+        <loc>http://cloudkey.github.io/tag-sitemap.xml</loc>
+        <lastmod>2017-01-21T12:16:27.000Z</lastmod>
+    </sitemap>
+
+</sitemapindex>
+<!-- XML Sitemap generated by Hexo SEO Friendly Sitemap Generator -->
