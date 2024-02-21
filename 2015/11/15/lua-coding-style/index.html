@@ -4,7 +4,7 @@
   <html class="light page-post">
 
 
-<head><meta name="generator" content="Hexo 3.9.0">
+<head>
   <meta charset="utf-8">
   
   <title>lua-coding-style | CloudKey Ocean</title>
@@ -12,21 +12,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   
-    <meta name="keywords" content="lua,">
+    <meta name="keywords" content="lua," />
   
 
   <meta name="description" content="命名规范： 文件名：  首字母大写驼峰型（第一个单词首字母也大写） 常量：    由字母、数字、_ 构成，字母全大写，首字母必须为字母，单词之间使用”_”相连 函数名：  由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 局部变量：由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 全局变量：由字母、数字、_ 构成，字母全小写，必须为”g_”开">
-<meta name="keywords" content="lua">
 <meta property="og:type" content="article">
 <meta property="og:title" content="lua-coding-style">
 <meta property="og:url" content="http://cloudkey.github.io/2015/11/15/lua-coding-style/index.html">
 <meta property="og:site_name" content="CloudKey Ocean">
 <meta property="og:description" content="命名规范： 文件名：  首字母大写驼峰型（第一个单词首字母也大写） 常量：    由字母、数字、_ 构成，字母全大写，首字母必须为字母，单词之间使用”_”相连 函数名：  由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 局部变量：由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 全局变量：由字母、数字、_ 构成，字母全小写，必须为”g_”开">
-<meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2017-01-21T12:16:32.000Z">
+<meta property="og:locale">
+<meta property="article:published_time" content="2015-11-15T09:15:47.000Z">
+<meta property="article:modified_time" content="2017-01-21T12:16:32.000Z">
+<meta property="article:author" content="Jun Ni">
+<meta property="article:tag" content="lua">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="lua-coding-style">
-<meta name="twitter:description" content="命名规范： 文件名：  首字母大写驼峰型（第一个单词首字母也大写） 常量：    由字母、数字、_ 构成，字母全大写，首字母必须为字母，单词之间使用”_”相连 函数名：  由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 局部变量：由字母、数字、_ 构成，字母全小写，首字母必须为字母，单词之间使用”_”相连 全局变量：由字母、数字、_ 构成，字母全小写，必须为”g_”开">
 
   
 
@@ -38,7 +38,9 @@
 
 
   
-    <link rel="stylesheet" href="/css/personal-style.css">
+    
+<link rel="stylesheet" href="/css/personal-style.css">
+
   
 
   
@@ -91,8 +93,8 @@ ga('send', 'pageview');
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
   
 
-</head>
-</html>
+<meta name="generator" content="Hexo 7.1.1"></head>
+
 <body>
 
 
@@ -196,7 +198,7 @@ ga('send', 'pageview');
 
   <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#命名规范："><span class="toc-text">命名规范：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#代码组织："><span class="toc-text">代码组织：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#lua的全局变量问题"><span class="toc-text">lua的全局变量问题</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%91%BD%E5%90%8D%E8%A7%84%E8%8C%83%EF%BC%9A"><span class="toc-text">命名规范：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%A3%E7%A0%81%E7%BB%84%E7%BB%87%EF%BC%9A"><span class="toc-text">代码组织：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#lua%E7%9A%84%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F%E9%97%AE%E9%A2%98"><span class="toc-text">lua的全局变量问题</span></a></li></ol>
   </div>
 
 
@@ -255,7 +257,8 @@ ga('send', 'pageview');
 <li>全局变量：由字母、数字、_ 构成，字母全小写，必须为”g_”开头，单词之间使用”_”相连，最好不用全局变量</li>
 <li>配置变量：由字母、数字、_ 构成，由”Conf_”开头，单词首字母大写，单词之间使用”_”相连</li>
 </ul>
-<a id="more"></a>
+<span id="more"></span>
+
 <h2 id="代码组织："><a href="#代码组织：" class="headerlink" title="代码组织："></a>代码组织：</h2><ul>
 <li><p>文件开头加上功能描述；每个文件都加module限定词；导入的模块都加local限定词</p>
 </li>
@@ -285,7 +288,7 @@ ga('send', 'pageview');
 </li>
 <li><p>空格符：</p>
 <blockquote>
-<p>运算符之间，如 s = a + b<br>参数列表或数组元素之间，如 fuction my_sum(a, b)，{1, 2, 3}<br>注意：函数参数列表中，左括号与第一个参数之间、右括号与最后一个参数之间，都不要加空格</p>
+<p>运算符之间，如 s &#x3D; a + b<br>参数列表或数组元素之间，如 fuction my_sum(a, b)，{1, 2, 3}<br>注意：函数参数列表中，左括号与第一个参数之间、右括号与最后一个参数之间，都不要加空格</p>
 </blockquote>
 </li>
 <li><p>单行超过80字符时，应该换行</p>
@@ -312,13 +315,8 @@ ga('send', 'pageview');
 </li>
 </ul>
 <h2 id="lua的全局变量问题"><a href="#lua的全局变量问题" class="headerlink" title="lua的全局变量问题"></a>lua的全局变量问题</h2><ul>
-<li><p>之前使用ngx-lua实现一个类似proxy的项目时，发现使用长连接机制会导致 请求错乱(不同的连接数据发生混乱)的现象，经追查发现lua中全局变量使用如果不当会导致一些未可知的异常情况。</p>
-<blockquote>
-<p>类似的也有其他同学遇到过相似的困扰：</p>
-  <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/openresty/lua-nginx-module/issues/<span class="number">150</span></span><br><span class="line">http://wiki.nginx.org/HttpLuaModule#Data_Sharing_within_an_Nginx_Worker</span><br><span class="line">http://zacharyhu.org/?p=<span class="number">373</span></span><br></pre></td></tr></table></figure>
-</blockquote>
-<blockquote>
-<p>解决方案：<br>  在用 ngx-releng 脚本check代码全量global变量之后，将所有global更改为local；同时对长连接建立失败或者读写超时的连接，进行close connection的处理。经验证上线之后数据错乱问题不再复现。</p>
+<li>之前使用ngx-lua实现一个类似proxy的项目时，发现使用长连接机制会导致 请求错乱(不同的连接数据发生混乱)的现象，经追查发现lua中全局变量使用如果不当会导致一些未可知的异常情况。<blockquote>
+<p>类似的也有其他同学遇到过相似的困扰：<br>  <figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">https://github.com/openresty/lua-nginx-<span class="built_in">module</span>/issues/<span class="number">150</span></span><br><span class="line">http://wiki.nginx.org/HttpLuaModule#Data_Sharing_within_an_Nginx_Worker</span><br><span class="line">http://zacharyhu.org/?p=<span class="number">373</span></span><br></pre></td></tr></table></figure><br>解决方案：<br>  在用 ngx-releng 脚本check代码全量global变量之后，将所有global更改为local；同时对长连接建立失败或者读写超时的连接，进行close connection的处理。经验证上线之后数据错乱问题不再复现。</p>
 </blockquote>
 </li>
 <li>所以建议对自己的代码用ngx-releng脚本进行check，尽量使用local变量。</li>
